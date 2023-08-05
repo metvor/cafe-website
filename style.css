@@ -1,0 +1,34 @@
+nav li {
+    display: inline;
+}
+.header img {
+    max-height: 700px;
+}
+.month.container {
+    display: flex;
+}
+.tea {
+    display: inline-flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1px;
+
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.month-container img {
+    width: 300px;
+    height: 200px;
+    
+}
+figcaption {
+    text-align: center;
+}
+.locations img {
+    height: 500px;
+}
