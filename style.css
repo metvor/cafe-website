@@ -1,24 +1,60 @@
 * {
     font-family: helvetica;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
 }
-
-nav li {
-    display: inline;
+p {
+    font-size: 22px;
+    
 }
-.header img {
-    max-height: 700px;
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: inline;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+
+}
+.nav img {
+    height: 50px;
+    float: left;
+}
+ul {
+    background-color: transparent;
+    text-align: right;
+}
+ul li {
+    display: inline;
+    text-decoration: underline;
+    font-size: 22px;
+    padding-right: 10px;
+    
+
+}
+.header {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.header-text {
+    position: relative;
+    top: 300px;
+    padding: 5px;
 }
 .month.container {
     display: flex;
 }
 .tea {
     display: inline-flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-around;  
 
@@ -46,20 +82,28 @@ figcaption {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     height: 500px;
     width: 1100px;
+    margin: 0 auto;
 }
 .location-header, .card-container {
     background-color: transparent;
-
+    
 }
 .card-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin: 0 auto;
-   
+    
 }
 .card {
     width: 300px;
     margin: 40px 15px;
-    
+}
+.card p {
+    line-height: 3em;
+}
+
+.footer #copyright {
+    text-align: left;
+
 }
