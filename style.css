@@ -1,3 +1,12 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
 nav li {
     display: inline;
 }
@@ -38,7 +47,10 @@ figcaption {
     height: 500px;
     width: 1100px;
 }
+.location-header, .card-container {
+    background-color: transparent;
 
+}
 .card-container {
     display: flex;
     justify-content: center;
@@ -47,7 +59,7 @@ figcaption {
    
 }
 .card {
-    background-color: blue;
     width: 300px;
     margin: 40px 15px;
+    
 }
